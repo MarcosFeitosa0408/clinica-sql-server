@@ -1,0 +1,23 @@
+# SQL Server — arquivos locais gerados automaticamente
+*.mdf
+*.ldf
+*.bak
+*.trn
+*.sqlplan
+
+# Credenciais e configurações locais (NUNCA versionar)
+*.env
+config_local.sql
+conexao.txt
+secrets.sql
+
+# Exports e outputs locais
+/exports/
+/output/
+*.csv
+*.xlsx
+
+# Editores
+.vscode/
+*.suo
+*.user
